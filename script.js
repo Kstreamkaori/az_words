@@ -2,20 +2,21 @@
 const data = [
   {
     word: "at",
-    image: "https://cdn.glitch.global/1d40a9e0-89ab-4243-b87a-fa0117ad6a73/at.png?v=1749121804356",
+    image: "assets/at.png",
     sound: "at.mp3"
   },
   {
     word: "sit",
-    image: "https://cdn.glitch.global/1d40a9e0-89ab-4243-b87a-fa0117ad6a73/sit.png?v=1749122152834",
+    image: "assets/sit.png",
     sound: "sit.mp3"
   },
   {
     word: "tap",
-    image: "https://cdn.glitch.global/1d40a9e0-89ab-4243-b87a-fa0117ad6a73/tap.png?v=1749122142882",
+    image: "assets/tap.png",
     sound: "tap.mp3"
   }
 ];
+
 
 let current = 0;
 
