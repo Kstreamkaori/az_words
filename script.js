@@ -14,7 +14,113 @@ const data = [
     word: "tap",
     image: "assets/tap.png",
     sound: "tap.mp3"
-  }
+  },
+  {
+  word: "spit",
+  image: "assets/spit.png",
+  sound: "assets/spit.mp3"
+},
+{
+  word: "pant",
+  image: "assets/pant.png",
+  sound: "assets/pant.mp3"
+},
+{
+  word: "ant",
+  image: "assets/ant.png",
+  sound: "assets/ant.mp3"
+},
+{
+  word: "pan",
+  image: "assets/pan.png",
+  sound: "assets/pan.mp3"
+},
+{
+  word: "snap",
+  image: "assets/snap.png",
+  sound: "assets/snap.mp3"
+},
+{
+  word: "pants",
+  image: "assets/pants.png",
+  sound: "assets/pants.mp3"
+},
+{
+  word: "tin",
+  image: "assets/tin.png",
+  sound: "assets/tin.mp3"
+},
+{
+  word: "pin",
+  image: "assets/pin.png",
+  sound: "assets/pin.mp3"
+},
+{
+  word: "spin",
+  image: "assets/spin.png",
+  sound: "assets/spin.mp3"
+},
+{
+  word: "cat",
+  image: "assets/cat.png",
+  sound: "assets/cat.mp3"
+},
+{
+  word: "can",
+  image: "assets/can.png",
+  sound: "assets/can.mp3"
+},
+{
+  word: "skip",
+  image: "assets/skip.png",
+  sound: "assets/skip.mp3"
+},
+{
+  word: "snack",
+  image: "assets/snack.png",
+  sound: "assets/snack.mp3"
+},
+{
+  word: "sick",
+  image: "assets/sick.png",
+  sound: "assets/sick.mp3"
+},
+{
+  word: "nest",
+  image: "assets/nest.png",
+  sound: "assets/nest.mp3"
+},
+{
+  word: "net",
+  image: "assets/net.png",
+  sound: "assets/net.mp3"
+},
+{
+  word: "pen",
+  image: "assets/pen.png",
+  sound: "assets/pen.mp3"
+},
+{
+  word: "tent",
+  image: "assets/tent.png",
+  sound: "assets/tent.mp3"
+},
+{
+  word: "neck",
+  image: "assets/neck.png",
+  sound: "assets/neck.mp3"
+},
+{
+  word: "tennis",
+  image: "assets/tennis.png",
+  sound: "assets/tennis.mp3"
+},
+{
+  word: "hat",
+  image: "assets/hat.png",
+  sound: "assets/hat.mp3"
+}
+
 ];
 
 
