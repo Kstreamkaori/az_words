@@ -77,9 +77,10 @@ const data = [
 },
 {
   word: "snack",
+  chunks: ["s", "n", "a", "ck"],
   image: "assets/snack.png",
   sound: "assets/snack.mp3"
-},
+}
 {
   word: "sick",
   image: "assets/sick_hamster.png",
@@ -112,6 +113,7 @@ const data = [
 },
 {
   word: "tennis",
+  chunks: ["t", "e", "nn", "i", "s"],
   image: "assets/tennis.png",
   sound: "assets/tennis.mp3"
 },
