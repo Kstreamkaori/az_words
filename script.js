@@ -129,12 +129,7 @@ const data = [
 let current = 0;
 
 // 単語と画像を表示
-function showWord() {
-  const wordEl = document.getElementById("word");
-  const imageEl = document.getElementById("image");
 
-  wordEl.innerHTML = "";
-  imageEl.style.visibility = "hidden"; // 読み込みまで非表示
 
  function showWord() {
   const wordEl = document.getElementById("word");
