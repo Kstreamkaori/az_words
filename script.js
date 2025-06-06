@@ -80,7 +80,7 @@ const data = [
   chunks: ["s", "n", "a", "ck"],
   image: "assets/snack.png",
   sound: "assets/snack.mp3"
-}
+},
 {
   word: "sick",
   image: "assets/sick_hamster.png",
