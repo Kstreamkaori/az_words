@@ -82,7 +82,7 @@ const data = [
 },
 {
   word: "sick",
-  image: "assets/sick%20hamster.png",
+  image: "assets/sick_hamster.png",
   sound: "assets/sick.mp3"
 },
 {
