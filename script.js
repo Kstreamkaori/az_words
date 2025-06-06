@@ -121,7 +121,7 @@ const data = [
   word: "hat",
   image: "assets/hat.png",
   sound: "assets/hat.mp3"
-},
+}
 
 ];
 
