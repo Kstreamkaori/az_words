@@ -1,0 +1,58 @@
+body {
+  font-family: 'Andika', sans-serif;
+  text-align: center;
+  background: #FAF3C0; /* ほんのりたまご色 */
+  color: #333; /* インスタの文字色と統一！ */
+  padding: 2em;
+}
+
+#word-area {
+  font-size: 64pt;
+  margin: 20px 0 10px 0;  /* 上下の余白を調整（下を詰める） */
+  min-height: 90px;
+}
+
+#image-area {
+  margin-top: 0; /* ← ここ追加 */
+}
+
+#image-area img {
+  width: 200px;
+  height: auto;
+  margin: 0 0 10px 0;  /* 下に少しだけスペース残す */
+  visibility: hidden;
+}
+
+
+button.play {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.play:hover {
+  background-color: #45A049;
+}
+
+button.nav {
+  background-color: #81D4FA;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.nav:hover {
+  background-color: #4FC3F7;
+}
+
+
+#nav-buttons {
+  margin-top: 20px;
+}
