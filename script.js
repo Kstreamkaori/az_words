@@ -188,7 +188,7 @@ function typeWriter(wordData, callback) {
   type();
 }
 
-}
+
 
 // 最初の単語を表示
 window.onload = showWord;
