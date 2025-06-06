@@ -134,13 +134,23 @@ function showWord() {
   wordEl.innerHTML = "";
   imageEl.style.visibility = "hidden"; // 読み込みまで非表示
 
-  typeWriter(data[current].word, function () {
-    imageEl.src = data[current].image;
+ function showWord() {
+  const wordEl = document.getElementById("word");
+  const imageEl = document.getElementById("image");
+
+  wordEl.innerHTML = "";
+  imageEl.style.visibility = "hidden";
+
+  const wordData = data[current]; // ← ここだけ追加
+
+  typeWriter(wordData, function () {
+    imageEl.src = wordData.image;
     imageEl.onload = () => {
       imageEl.style.visibility = "visible";
     };
   });
 }
+
 
 // 音声再生
 function playSound() {
@@ -160,22 +170,27 @@ function nextWord() {
   showWord();
 }
 
-// タイプライター風に1文字ずつ表示
-function typeWriter(text, callback) {
+// タイプライター風にチャンク表示
+function typeWriter(wordData, callback) {
   const wordEl = document.getElementById("word");
+  wordEl.innerHTML = ""; // 表示リセット
+
+  const chunks = wordData.chunks || wordData.word.split(""); // chunksがなければ1文字ずつ
   let i = 0;
 
   function type() {
-    if (i < text.length) {
-      wordEl.innerHTML += text.charAt(i);
+    if (i < chunks.length) {
+      wordEl.innerHTML += chunks[i];
       i++;
-      setTimeout(type, 500); // 表示間隔（ms）
+      setTimeout(type, 500); // 表示スピード
     } else {
       if (typeof callback === "function") callback();
     }
   }
 
   type();
+}
+
 }
 
 // 最初の単語を表示
